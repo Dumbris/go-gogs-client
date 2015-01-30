@@ -12,4 +12,9 @@ type Key struct {
 	Title string `json:"title,omitempty"`
 }
 
+type AddSSHKeyOption struct {
+	Title string `json:"title"`
+	Key   string `json:"key"`
+}
+
 //TODO Add functions with getParsedResponse()
